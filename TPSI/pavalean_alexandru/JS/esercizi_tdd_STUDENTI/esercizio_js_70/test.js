@@ -1,4 +1,4 @@
-import { Calcolatrice } from "./es_70.js";
+import { Calcolatrice } from "./pavalean_esercizio_js_70.js";
 
 const calc = new Calcolatrice();
 
