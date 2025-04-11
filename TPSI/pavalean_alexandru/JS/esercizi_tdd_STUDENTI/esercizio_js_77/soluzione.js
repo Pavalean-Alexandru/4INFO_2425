@@ -24,4 +24,8 @@ export class Fibonacci {
 
     }
 
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> cfcdb8c (consegna esercizi)
