@@ -4,14 +4,19 @@
 </svelte:head>
 
 <script>
+    import { store_counter } from "../js/store";
     export let counter = 0;
 
     function counter_incr(){
         counter += 1;
+        $store_counter = counter;
+        emit_event('incr');
     }
 
     function counter_decr(){
         counter -= 1;
+        $store_counter = counter;
+        emit_event('decr')
     }
 </script>
 
